@@ -1,0 +1,435 @@
+/* Theme Name:   De Kruipruimte expert
+ * Theme URI:    http://example.com/twenty-fifteen-child/
+ * Description:  De kruipruimte expert, De expert onder de vloer.
+ * Author:       patelle
+ * Author URI:   https://patelle.nl
+ * Template:     twentyfifteen
+ * Version:      1.0.2
+ * License:      GNU General Public License v2 or later
+ * License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ * Text Domain:  twenty-fifteen-child */
+body {
+  font-family: lato, sans-serif;
+  font-size: 14px; }
+
+.header-tekst {
+  font-size: 17px;
+  font-family: lato, sans-serif;
+  font-weight: lighter;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+#masthead {
+  width: 100%;
+  height: 600px;
+  background-image: url(../Dekruipruimteexpert/images/ddke.jpg);
+  background-size: cover, 100%;
+  background-color: rgba(34, 34, 37, 0.63);
+  background-position: center; }
+
+h1.company-name {
+  color: #ffff;
+  font-size: 45px;
+  position: relative;
+  float: none; }
+
+h2.company-description {
+  color: #989898;
+  font-size: 35px;
+  position: relative;
+  top: -19px; }
+
+h2.center-white {
+  text-align: center;
+  color: #fff; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: lato, sans-serif; }
+
+h1 {
+  font-size: 35px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 25p; }
+
+h3.sample {
+  text-align: center;
+  padding-top: 20px; }
+
+h2.samples {
+  text-align: center;
+  padding-bottom: 20px; }
+
+p {
+  line-height: 1.5;
+  color: #636262; }
+
+.logo-title {
+  border-top: 6px solid #00A19A;
+  border-bottom: 6px solid #00A19A; }
+
+.entry-title {
+  margin: 25px;
+  display: none; }
+
+.entry-content {
+  margin: 25px; }
+
+.content {
+  position: relative; }
+
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+footer.entry-footer {
+  display: none; }
+
+span.oranje {
+  color: #00A19A; }
+
+article {
+  padding-top: 35px;
+  width: 100%; }
+
+.site-title a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 80px; }
+
+.site-branding {
+  position: relative;
+  top: 100px;
+  float: right;
+  width: 100%;
+  padding: 0; }
+
+.navbar .nav li {
+  color: #202026;
+  list-style-type: none;
+  padding-left: 22px;
+  font-size: 16px; }
+.navbar .nav a {
+  color: #202026; }
+
+p.sub-title {
+  padding-bottom: 35px; }
+
+#bs-example-navbar-collapse-1 {
+  position: absolute;
+  right: 0;
+  padding-right: 150px; }
+
+span.icon-bar {
+  background: #202026;
+  width: 22px;
+  height: 2px; }
+
+img.logo {
+  width: 220px;
+  height: auto; }
+
+.container-images {
+  background-image: url(../hoekstra-klussen/images/content-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 650px; }
+
+.display-blog {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  padding-top: 35px;
+  padding-bottom: 35px; }
+
+.display-blog li {
+  list-style-type: none; }
+
+.thumbnail {
+  position: relative;
+  vertical-align: top;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  height: 230px; }
+
+.align-center {
+  text-align: center; }
+
+.title-overlay {
+  position: relative;
+  background: #00A19A;
+  padding: 10px;
+  top: 0; }
+  .title-overlay h2 {
+    font-size: 20px; }
+
+h1.site-title {
+  padding-left: 30px; }
+
+.post-display {
+  position: relative;
+  z-index: -2;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  vertical-align: top; }
+
+.box-overlay {
+  width: 100%;
+  height: auto;
+  background: rgba(34, 34, 37, 0.63); }
+
+.box-overlay:hover {
+  background: none;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-webkit-transition: 0.6s; }
+
+a.post-link {
+  color: #fff;
+  text-decoration: none; }
+
+.top-layer {
+  border-top: 3px solid #00A19A;
+  width: 100%;
+  padding: 25px 0; }
+
+img.sing {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 120px;
+  padding-right: 55px; }
+
+.reclame-sing {
+  width: 100%;
+  position: relative;
+  vertical-align: bottom; }
+
+button.navbar-toggler {
+  float: left;
+  margin-left: auto;
+  position: relative;
+  bottom: 59px; }
+
+.gray-stroke {
+  width: 100%;
+  height: auto;
+  background: #cfcece;
+  border-top: 4px solid #00A19A;
+  padding-top: 35px;
+  padding-bottom: 35px; }
+
+.hexagon {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  padding-bottom: 30px; }
+
+.image-frame {
+  position: relative;
+  margin: 0 auto;
+  text-align: center; }
+
+.contact-layer {
+  width: 100%;
+  height: auto;
+  border-top: 3px solid #00A19A; }
+
+p.contact-tekst {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 12px; }
+
+.btn-contact {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.btn-contact a {
+  background-color: #00A19A;
+  padding: 10px 30px;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #fff; }
+
+.container-fullwidth {
+  width: 100%; }
+
+.full-height .header-overlay h2 {
+  padding-bottom: 20px; }
+
+.full-height.header-overlay {
+  position: relative;
+  background: rgba(0, 0, 0, 0.67);
+  width: 30%;
+  height: 600px;
+  color: #fff;
+  padding-top: 120px; }
+
+.left-overlay {
+  width: 100%;
+  position: absolute;
+  padding-left: 12px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffff;
+  top: 115px;
+  height: 600px; }
+
+.header-titles {
+  position: absolute;
+  margin: auto;
+  top: 300px;
+  float: right;
+  right: 50px; }
+
+h2.about {
+  font-size: 40px;
+  padding-bottom: 30px;
+  text-align: center; }
+
+input {
+  border: none;
+  border-bottom: 2px solid #cfcece; }
+
+input[type=submit] {
+  background: #00A19A;
+  width: 150px;
+  height: 45px;
+  color: #fff;
+  border: none; }
+
+textarea[name=your-message] {
+  border: none;
+  border-bottom: 2px solid #cfcece; }
+
+.text {
+  padding-bottom: 40px; }
+
+.contact {
+  padding-top: 35px; }
+
+.contact-push {
+  width: 100%;
+  position: relative;
+  padding-top: 35px; }
+  .contact-push li {
+    list-style-type: none;
+    line-height: 1.5;
+    color: #636262;
+    padding-bottom: 6px; }
+
+.image-section {
+  width: 100%;
+  height: 300px;
+  background-image: url(../Dekruipruimteexpert/images/overlay-section.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat; }
+
+.sidebar {
+  float: right;
+  position: relative; }
+
+footer {
+  width: 100%;
+  border-top: 1px solid #cfcece; }
+
+.yellow {
+  color: #cfcece;
+  padding-bottom: 12px; }
+
+.site-info {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+
+.site-info ul, .menu ul {
+  position: relative;
+  padding: 0; }
+.site-info li, .menu li {
+  text-decoration: none;
+  list-style-type: none; }
+.site-info a, .menu a {
+  color: #cfcece;
+  font-size: 12px; }
+
+.copyright p, .rights p {
+  text-align: center;
+  padding-bottom: 0;
+  margin: 0; }
+
+.image-container-logo-trans {
+  background-image: url(../dekruipruimteexpert/images/icon-trans.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: auto; }
+
+.dark-green {
+  color: #babbc5;
+  box-shadow: 0 16px 40px -27px rgba(0, 0, 0, 0.92);
+  padding-bottom: 70px;
+  margin-bottom: 65px; }
+
+.overlay-section {
+  background: #000;
+  width: 100%;
+  height: 300px;
+  z-index: 9999; }
+
+img.logo:hover {
+  opacity: 0.6;
+  transition: 0.5s ease-out;
+  -webkit-transition: 0.5s ease-out;
+  -moz-webkit-transition: 0.5s ease-out; }
+
+button {
+  background: #00A19A;
+  border: none;
+  border-radius: 0.5px;
+  color: #fff;
+  padding: 5px 12px 5px 12px;
+  margin-top: 35px;
+  margin-left: 15px; }
+
+button:hover {
+  transition: 0.5s ease-out;
+  -webkit-transition: 0.5s ease-out;
+  -moz-webkit-transition: 0.5s ease-out;
+  background: #00847B;
+  color: #cfcece; }
+
+.read-more {
+  text-align: right; }
+
+img.logo-partner {
+  text-align: center; }
+
+.partner {
+  position: relative;
+  margin: 0 auto; }
+
+.example-images img {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  display: block; }
+
+@media only screen and (max-width: 767px) {
+  img.sing {
+    position: relative;
+    top: 31px;
+    margin: auto; }
+
+  #bs-example-navbar-collapse-1 {
+    position: relative; } }
+
+/*# sourceMappingURL=style.css.map */
