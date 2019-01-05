@@ -8,12 +8,16 @@
 
 
 		<header id="masthead" class="site-header" role="banner">
-<div class="row">
-			<div class="header-titles">
-					<h1 class="company-name">De Kruipruimte Expert</h1>
-					<h2 class="company-description">voor de inspectie van uw kruipruimte</h2>
+<div class="header-titles">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="company-name device-center">De Kruipruimte Expert</h1>
+				<h2 class="company-description device-center">voor de inspectie van uw kruipruimte</h2>
 			</div>
 		</div>
+	</div>
+</div>
 							<div class="full-height header-overlay">
 								<div class="header-tekst">
 							<?php
@@ -22,10 +26,15 @@
 									echo $page_data->post_content; // Show page content
 			?>
 		</div>
-					<a href="#"><button class="direct-contact">Neem contact op</button></a>
-		</div>
 
+					<a  class="header-button" href="<?php echo get_stylesheet_directory_uri()?>/contact"><button>Neem contact op</button></a>
+				</div>
 
+				<div class="container">
+					<div class="row">
+						<a class="direct-contact" href="<?php echo get_stylesheet_directory_uri()?>/contact"><button class="direct-contact">Neem contact op</button></a>
+					</div>
+				</div>
 		</header><!-- .site-header -->
 
 <div class="image-container-logo-trans">
@@ -95,7 +104,7 @@
 							?>
 
 			</div>
-			<div class="read-more right col-md-12"><a href="http://localhost:8888/kruipruimte"><button>Lees meer</button></a>
+			<div class="read-more right col-md-12"><a href="<?php echo get_stylesheet_directory_uri()?>/kruipruimte"><button>Lees meer</button></a>
  		</div>
  	</div>
  </div>
@@ -109,13 +118,16 @@
 <div class="section">
 	<div class="container">
 		<div class="row">
-			<div class="text col-md-12">
+			<div class="text col-md-6">
 			<?php
 					$page_id = 63; //ID of page from your WP admin panel
 						$page_data = get_page( $page_id );
 						echo $page_data->post_content; // Show page content
 						?>
 					</div>
+
+					<div class="col-md-6">
+						<img class="tip-sign" src="<?php echo get_stylesheet_directory_uri();?>/images/tipsandtricks.png" width="350px" height="auto"/>
 				</div>
 			</div>
 		</div>

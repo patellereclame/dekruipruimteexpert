@@ -334,7 +334,8 @@ textarea[name=your-message] {
   background-image: url(../Dekruipruimteexpert/images/overlay-section.jpg);
   background-size: cover;
   background-position: right;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  box-shadow: 0 27px 40px -27px rgba(0, 0, 0, 0.92); }
 
 .sidebar {
   float: right;
@@ -385,6 +386,15 @@ footer {
   height: 300px;
   z-index: 9999; }
 
+img.tip-sign {
+  float: right;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: -65px;
+  bottom: 25px;
+  position: relative;
+  width: 400px; }
+
 img.logo:hover {
   opacity: 0.6;
   transition: 0.5s ease-out;
@@ -423,13 +433,64 @@ img.logo-partner {
   padding: 0;
   display: block; }
 
+button.direct-contact {
+  display: none; }
+
+a.direct-contact {
+  display: none; }
+
 @media only screen and (max-width: 767px) {
   img.sing {
     position: relative;
     top: 31px;
     margin: auto; }
 
+  .header-tekst {
+    display: none; }
+
+  .full-height {
+    display: none; }
+
+  h1.device-center, h2.device-center {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px; }
+
+  .header-titles {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    top: 115px;
+    right: 0;
+    float: none; }
+
+  button.direct-contact {
+    display: block;
+    text-align: center;
+    position: relative;
+    margin-left: 0; }
+
+  a.direct-contact {
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 70px; }
+
+  .tip-sign {
+    display: none; }
+
   #bs-example-navbar-collapse-1 {
     position: relative; } }
+@media only screen and (max-width: 1200px) {
+  img.tip-sign {
+    bottom: 25px;
+    width: 500px; } }
+@media only screen and (max-width: 992px) {
+  img.tip-sign {
+    bottom: 25px;
+    width: 600px;
+    left: 38px; } }
 
 /*# sourceMappingURL=style.css.map */
