@@ -50,4 +50,37 @@ function child_theme_setup() {
 }
 add_action( 'after_setup_theme', 'child_theme_setup' );
 
+if (class_exists('MultiPostThumbnails')) {
+
+new MultiPostThumbnails(array(
+'class' => 'post-thumbnail',
+'label' => 'Uitgelichte Afbeelding',
+'id' => 'secondary-image',
+'post_type' => 'page'
+ ) );
+
+ }
+
+ if (class_exists('MultiPostThumbnails')) {
+
+new MultiPostThumbnails(array(
+'class' => 'post-thumbnail',
+'label' => 'Uitgelichte Afbeelding',
+'id' => 'third-image',
+'post_type' => 'page'
+ ) );
+
+ }
+
+ if (class_exists('MultiPostThumbnails')) {
+
+new MultiPostThumbnails(array(
+'class' => 'post-thumbnail',
+'label' => 'Uitgelichte Afbeelding',
+'id' => 'fourth-image',
+'post_type' => 'page'
+ ) );
+
+ }
+
 ?>

@@ -32,8 +32,8 @@ get_header() ?>
     <div class="contact-push col-xs-6 col-md-6">
       <h3>Contact gegevens</h3>
       <li>Naam: Douwe Ekema</li>
-      <li>E-mail: <a href="mailto:info@dekruipruimteexpert.nl">info@dekruipruimteexpert</a></li>
-      <li>Tel:06-15575521 </li>
+      <li>E-mail: <a class="link-green"href="mailto:info@dekruipruimteexpert.nl">info@dekruipruimteexpert</a></li>
+      <li>Tel: 06-15575521 </li>
       <br>
       <h3>Adres gegevens</h3>
       <li>Adres: Veenkamp 57 </li>

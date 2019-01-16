@@ -43,7 +43,8 @@
  		<div class="container">
  			<div class="row">
  				<div class="content">
-					<div class="col-xs-6 col-md-12 first-text">
+					<div class="first-text col-md-12">
+						<div class="col-md-8 text-center">
 
  			<!--loop begins here -->
  <?php
@@ -51,7 +52,7 @@
 		while ( have_posts() ) : the_post();
 
 			// Include the page content template.
-			get_template_part( 'content', 'page' );
+			get_template_part( 'content' );
 
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :
@@ -62,7 +63,7 @@
 		endwhile;
 ?>
 
-
+						</div>
 					</div>
  				</div>
  			</div>
@@ -83,11 +84,13 @@
 
  <div class="section">
  	<div class="container">
- 		<div class="row">
-			<h2 class="about col-md-12">Herkenbare mogelijke problemen</h2>
-		</div>
 		<div class="row">
- 			<div class="text col-xs-6 col-md-6">
+			<h2 class="about col-md-4">Herkenbare mogelijke problemen
+				<div class="border-styling"></div>
+			</h2>
+
+
+ 			<div class="text col-xs-4 col-md-4">
  <?php
  		$page_id = 11; //ID of page from your WP admin panel
  			$page_data = get_page( $page_id );
@@ -96,7 +99,7 @@
 
  			</div>
 
-			<div class="text col-xs-6 col-md-6">
+			<div class="text col-xs-4 col-md-4">
 <?php
 		$page_id = 43; //ID of page from your WP admin panel
 			$page_data = get_page( $page_id );
@@ -118,6 +121,11 @@
 <div class="section">
 	<div class="container">
 		<div class="row">
+
+			<h2 class="about col-md-2">Tips & Tricks
+				<div class="border-styling"></div>
+			</h2>
+
 			<div class="text col-md-6">
 			<?php
 					$page_id = 63; //ID of page from your WP admin panel
@@ -126,7 +134,7 @@
 						?>
 					</div>
 
-					<div class="col-md-6">
+					<div class="image-tips col-md-4">
 						<img class="tip-sign" src="<?php echo get_stylesheet_directory_uri();?>/images/tipsandtricks.png" width="350px" height="auto"/>
 				</div>
 			</div>
@@ -134,6 +142,14 @@
 
 
 
+<style>
+.entry-header {
+	display: none;
+}
 
+.entry-content {
+    padding-left: 0;
+}
+</style>
 
 <?php get_footer(); ?>

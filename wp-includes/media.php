@@ -71,8 +71,8 @@ function image_constrain_size_for_editor( $width, $height, $size = 'medium', $co
 		$max_height = intval(get_option('thumbnail_size_h'));
 		// last chance thumbnail size defaults
 		if ( !$max_width && !$max_height ) {
-			$max_width = 128;
-			$max_height = 96;
+			$max_width = 1000;
+			$max_height = 1000;
 		}
 	}
 	elseif ( $size == 'medium' ) {
@@ -280,7 +280,6 @@ function add_image_size( $name, $width = 0, $height = 0, $crop = false ) {
 	$_wp_additional_image_sizes[ $name ] = array(
 		'width'  => absint( $width ),
 		'height' => absint( $height ),
-		'crop'   => $crop,
 	);
 }
 
@@ -330,8 +329,8 @@ function remove_image_size( $name ) {
  * @param bool|array $crop   Optional. Whether to crop images to specified width and height or resize.
  *                           An array can specify positioning of the crop area. Default false.
  */
-function set_post_thumbnail_size( $width = 0, $height = 0, $crop = false ) {
-	add_image_size( 'post-thumbnail', $width, $height, $crop );
+function set_post_thumbnail_size( $width = 1000, $height = 1000) {
+	add_image_size( 'post-thumbnail', $width, $height);
 }
 
 /**
@@ -496,7 +495,7 @@ function wp_constrain_dimensions( $current_width, $current_height, $max_width = 
  *                           An array can specify positioning of the crop area. Default false.
  * @return false|array False on failure. Returned array matches parameters for `imagecopyresampled()`.
  */
-function image_resize_dimensions( $orig_w, $orig_h, $dest_w, $dest_h, $crop = false ) {
+function image_resize_dimensions( $orig_w, $orig_h, $dest_w, $dest_h ) {
 
 	if ($orig_w <= 0 || $orig_h <= 0)
 		return false;
